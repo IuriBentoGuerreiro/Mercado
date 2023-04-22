@@ -6,7 +6,6 @@ public class Produto {
 
     private static int contador = 1;
 
-
     private int codigo;
     private String nome;
     private double preco;
@@ -47,6 +46,4 @@ public class Produto {
                 " Nome: " + this.nome +
                 " Preço: " + Utils.doubleParaString(this.getPreco());
     }
-
-
 }
